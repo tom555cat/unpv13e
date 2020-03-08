@@ -7849,7 +7849,7 @@ if test "$ac_cv_func_inet_aton" = no ; then
    LIBFREE_OBJS="$LIBFREE_OBJS inet_aton.o"
 fi
 
-LIBFREE_OBJS="$LIBFREE_OBJS inet_ntop.o inet_pton.o"
+LIBFREE_OBJS="$LIBFREE_OBJS inet_pton.o"
 
 if test "$ac_cv_func_getaddrinfo" = no ; then
 LIBGAI_OBJS="getaddrinfo.o getnameinfo.o freeaddrinfo.o gai_strerror.o"
